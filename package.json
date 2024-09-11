@@ -1,0 +1,16 @@
+{
+    "name": "skip-tracking-links",
+    "packageManager": "yarn@3.6.3",
+    "scripts": {
+        "build": "tsup",
+        "dev": "tsup --watch",
+        "test": "vitest run"
+    },
+    "devDependencies": {
+        "@types/webextension-polyfill": "^0.12.1",
+        "tsup": "^8.2.4",
+        "typescript": "^5.6.2",
+        "vitest": "^2.0.5",
+        "webextension-polyfill": "^0.12.0"
+    }
+}

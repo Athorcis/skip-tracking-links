@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Skip Tracking Links",
+    "version": "1.0",
+
+    "description": "A web extension to redirect the user to the final url without doing a request, useful when tracking hostnames are blocked at the dns level",
+
+    "background": {
+        "scripts": ["dist/index.mjs"],
+        "type": "module"
+    },
+
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking"
+    ],
+
+    "host_permissions": [
+        "<all_urls>"
+    ]
+}
